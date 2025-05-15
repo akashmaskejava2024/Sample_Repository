@@ -36,6 +36,9 @@ public class HomeController {
 	@PostMapping("/emp")
 	public Employee addEmp(@RequestBody Employee e) {
 
+
+
+		
 		return employeeRepo.save(e);
 
 	}
