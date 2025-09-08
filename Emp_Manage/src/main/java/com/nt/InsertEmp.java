@@ -23,6 +23,7 @@ public class InsertEmp extends HttpServlet{
 				
 		EmpDAO dao = new EmpDAO();
 		dao.InsertEmp(id, name, sal);
+		System.out.println("Hello World");
 		
 		
 		req.setAttribute("msg", "Insertion Successfull");
